@@ -6,12 +6,12 @@
 
 ## Siteflow
 
-[![Social Network](https://github.com/videothrone/online-petition/blob/master/screenshot1.png)]
-[![Social Network](https://github.com/videothrone/online-petition/blob/master/screenshot2.png)]
-[![Social Network](https://github.com/videothrone/online-petition/blob/master/screenshot3.png)]
-[![Social Network](https://github.com/videothrone/online-petition/blob/master/screenshot4.png)]
-[![Social Network](https://github.com/videothrone/online-petition/blob/master/screenshot5.png)]
-[![Social Network](https://github.com/videothrone/online-petition/blob/master/screenshot6.png)]
+[![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot1.png)]
+[![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot2.png)]
+[![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot3.png)]
+[![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot4.png)]
+[![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot5.png)]
+[![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot6.png)]
 
 ## Tech
 
