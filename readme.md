@@ -1,6 +1,6 @@
 # Meatspace
 
-"Meatspace" is a cheeky social network for space travelers done during my stint at [SPICED Academy](https://www.spiced.academy/program/full-stack-web-development/). The project was done in about 2 1/2 weeks and grew organically to and extent. F.e. Redux was learned and used during a later stage.
+"Meatspace" is a cheeky social network for space travelers done during my stint at [SPICED Academy](https://www.spiced.academy/program/full-stack-web-development/). The project was done in about 2 1/2 weeks and grew organically along the way. F.e. Redux was learned and used during a later stage.
 
 ---
 
