@@ -6,12 +6,13 @@
 
 ## Siteflow
 
-![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot1.png)
-![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot2.png)
-![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot3.png)
-![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot4.png)
-![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot5.png)
-![Social Network](https://github.com/videothrone/social-network/blob/master/screenshot6.png)
+![Social Network](siteflow.gif)
+
+![Social Network](siteflow2.gif)
+
+![Social Network](siteflow3.gif)
+
+![Social Network](siteflow4.gif)
 
 ## Tech
 
