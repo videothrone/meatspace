@@ -6,17 +6,21 @@
 
 ## Siteflow
 
-![Social Network](siteflow.gif)
+[![Social Network](siteflow.gif)](https://meatspace.herokuapp.com)
 
-![Social Network](siteflow2.gif)
+[![Social Network](siteflow2.gif)](https://meatspace.herokuapp.com)
 
-![Social Network](siteflow3.gif)
+[![Social Network](siteflow3.gif)](https://meatspace.herokuapp.com)
 
-![Social Network](siteflow4.gif)
+[![Social Network](siteflow4.gif)](https://meatspace.herokuapp.com)
+
+## Demo
+
+https://meatspace.herokuapp.com
 
 ## Tech
 
-HTML, CSS, Node.js / Express, PostgreSQL, React, React Hooks, Redux, Bundle.js, Moment.js, Socket.io, AWS / S3
+HTML, CSS, Node.js / Express, PostgreSQL, React, React Hooks, Redux, Bundle.js, Moment.js, Socket.io, AWS / S3, Heroku
 
 ## Features
 

@@ -9,7 +9,10 @@ const s3 = require("./s3");
 const config = require("./config");
 const compression = require("compression");
 const server = require("http").Server(app);
-const io = require("socket.io")(server, { origins: "localhost:8080" });
+const socketServer = app.listen(8080);
+const io = require("socket.io")(server, {
+    origins: "localhost: https://meatspace.herokuapp.com:*"
+}).listen(socketServer);
 const moment = require("moment");
 
 /// FILE UPLOAD BOILERPLATE ///
@@ -43,8 +46,11 @@ app.use(express.json());
 
 // cookie session setup
 const cookieSessionMiddleware = cookieSession({
-    secret: `I'm always angry.`,
-    maxAge: 1000 * 60 * 60 * 24 * 14
+    maxAge: 1000 * 60 * 60 * 24 * 14,
+    secret:
+        process.env.NODE_ENV == "production"
+            ? process.env.sessionSecret
+            : require("./secrets").sessionSecret
 });
 
 app.use(cookieSessionMiddleware);
@@ -330,6 +336,6 @@ io.on("connection", function(socket) {
     });
 });
 
-server.listen(8080, function() {
+server.listen(process.env.PORT || 8080, function() {
     ca.rainbow("ʕ•ᴥ•ʔ Social Network Express is running...");
 });

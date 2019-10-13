@@ -1,6 +1,12 @@
 const spicedPg = require("spiced-pg");
-const { dbuser, dbpass } = require("../secrets");
-let db = spicedPg(`postgres:${dbuser}:${dbpass}@localhost:5432/socialnetwork`);
+
+let db;
+if (process.env.DATABASE_URL) {
+    db = spicedPg(process.env.DATABASE_URL);
+} else {
+    const { dbuser, dbpass } = require("../secrets");
+    db = spicedPg(`postgres:${dbuser}:${dbpass}@localhost:5432/socialnetwork`);
+}
 
 exports.addUsers = function(first, last, email, password) {
     return db.query(
