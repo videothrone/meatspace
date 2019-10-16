@@ -1,26 +1,22 @@
 # Meatspace
 
-"Meatspace" is a cheeky social network for space travelers done during my stint at [SPICED Academy](https://www.spiced.academy/program/full-stack-web-development/). The project was done in about 2 1/2 weeks and grew organically along the way. F.e. Redux was learned and used during a later stage.
+"Meatspace" is a cheeky social network for space travelers done during my stint at [SPICED Academy](https://www.spiced.academy/program/full-stack-web-development/). The project was done in about 2 1/2 weeks and grew organically along the way. Redux for example was learned and used during a later stage.
 
 ---
 
 ## Siteflow
 
-[![Social Network](siteflow.gif)](https://meatspace.herokuapp.com)
+![Social Network](siteflow.gif)
 
-[![Social Network](siteflow2.gif)](https://meatspace.herokuapp.com)
+![Social Network](siteflow2.gif)
 
-[![Social Network](siteflow3.gif)](https://meatspace.herokuapp.com)
+![Social Network](siteflow3.gif)
 
-[![Social Network](siteflow4.gif)](https://meatspace.herokuapp.com)
-
-## Demo
-
-https://meatspace.herokuapp.com
+![Social Network](siteflow4.gif)
 
 ## Tech
 
-HTML, CSS, Node.js / Express, PostgreSQL, React, React Hooks, Redux, Bundle.js, Moment.js, Socket.io, AWS / S3, Heroku
+HTML, CSS, Node.js / Express, PostgreSQL, React, React Hooks, Redux, Bundle.js, Moment.js, Socket.io, AWS / S3, Multer, Heroku
 
 ## Features
 
