@@ -9,10 +9,9 @@ const s3 = require("./s3");
 const config = require("./config");
 const compression = require("compression");
 const server = require("http").Server(app);
-const socketServer = app.listen(8080);
 const io = require("socket.io")(server, {
     origins: "localhost: https://meatspace.herokuapp.com:*"
-}).listen(socketServer);
+});
 const moment = require("moment");
 
 /// FILE UPLOAD BOILERPLATE ///
